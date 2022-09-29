@@ -11,10 +11,10 @@ export const Sidebar = () => {
       {menus.map((item, index) => (
         <Link
           to={item.path}
-          className="py-2 px-5 flex gap-x-2 font-semibold text-slate-100 hover:bg-slate-300 rounded"
+          className="py-2 px-5 flex gap-x-2 font-semibold text-slate-100 hover:bg-slate-300 rounded items-center"
           key={index}
         >
-          <div className="w-5 h-5">{item.icon}</div>
+          <div className="w-7 h-7">{item.icon}</div>
           <div to={item.path}>{item.title}</div>
         </Link>
       ))}
