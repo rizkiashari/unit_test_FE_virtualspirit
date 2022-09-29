@@ -76,7 +76,7 @@ export const Post = () => {
         isOpen={isOpen}
         handleClose={handleClose}
         handleDelete={handleDelete}
-        title="Are you sure you want to delete this person"
+        title="Are you sure you want to delete this post"
       />
       <ModalAdd
         isOpen={isOpenAdd}
