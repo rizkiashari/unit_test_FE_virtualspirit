@@ -66,7 +66,7 @@ export const Post = () => {
 
   return (
     <Layout>
-      <Title title="People" action={handleOpenAdd} />
+      <Title title="Post" action={handleOpenAdd} />
       <Table
         data={post.data}
         handleDelete={handleOpen}

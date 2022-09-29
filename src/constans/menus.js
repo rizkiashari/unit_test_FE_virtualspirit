@@ -1,9 +1,9 @@
-import { UserIcon } from "@heroicons/react/solid";
+import { MailIcon } from "@heroicons/react/solid";
 
 export const menus = [
   {
-    title: "People",
+    title: "Post",
     path: "/",
-    icon: <UserIcon />,
+    icon: <MailIcon />,
   },
 ];
