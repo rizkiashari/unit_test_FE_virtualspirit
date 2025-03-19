@@ -1,3 +1,4 @@
+import React from "react";
 import { MailIcon } from "@heroicons/react/solid";
 
 export const menus = [
