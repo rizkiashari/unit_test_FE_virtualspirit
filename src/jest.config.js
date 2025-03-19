@@ -5,6 +5,7 @@ module.exports = {
     collectCoverageFrom: [
         "**/*.{js,jsx,ts,tsx}",
         "!<rootDir>/src/components/**",
+        "!<rootDir>/src/store/**",
         "!<rootDir>/src/*.config.js",
     ],
     testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
